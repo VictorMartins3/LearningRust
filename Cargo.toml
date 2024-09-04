@@ -1,0 +1,13 @@
+[package]
+name = "quake_log_parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "0.14"
+eframe = "0.14"
+regex = "1"
+
+[[bin]]
+name = "quake_log_parser"
+path = "src/bin/main.rs"
